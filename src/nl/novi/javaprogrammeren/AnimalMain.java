@@ -1,5 +1,7 @@
 package nl.novi.javaprogrammeren;
 
+import nl.novi.javaprogrammeren.overerving.Lion;
+
 public class AnimalMain {
     /*
     Het is traditie om overerving uit te leggen met behulp van dieren. Hier ontkomen jullie dus ook niet aan.
@@ -33,5 +35,10 @@ public class AnimalMain {
     Alles staat hier in het Nederlands beschreven. Schrijf je klassen-, variabele en methodenamen in het Engels.
 
      */
-
+    public static void main(String[] args) {
+        Lion l1 = new Lion("Bert", 'm', "meat", "Bert's Cage", "Monday", "South Africa", 5);
+        l1.printLion();
+        l1.movement();
+    }
 }
+
